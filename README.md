@@ -8,9 +8,7 @@ This project was following tutorial with [React JS Web Development - The Essenti
 
 - run `npm install`
 
-- run `cp .env.example .env.local`
-
-- register an account in firebase, after done create firebase web app add the detail into env
+- register an account in firebase, after done create firebase web app add the detail into firebase.js files
 
 -
 
