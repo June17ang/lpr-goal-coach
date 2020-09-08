@@ -10,7 +10,7 @@ This project was following tutorial with [React JS Web Development - The Essenti
 
 - register an account in firebase, after done create firebase web app add the detail into firebase.js files
 
--
+- Need to enable the auth for sign in
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
