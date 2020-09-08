@@ -8,7 +8,11 @@ This project was following tutorial with [React JS Web Development - The Essenti
 
 - run `npm install`
 
-- set env
+- run `cp .env.example .env.local`
+
+- register an account in firebase, after done create firebase web app add the detail into env
+
+-
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
