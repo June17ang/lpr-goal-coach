@@ -3,14 +3,14 @@ import { completeGoalRef, goalRef } from "../firebase";
 import { connect } from "react-redux";
 
 class GoalItem extends Component {
-  completeGoal() {
+  completeGoal = () => {
     //add complete goal on db
     //remove this goal from the goal ref
     const { email } = this.props.user;
     const { title, serverKey } = this.props.goal;
     goalRef.child(serverKey).remove();
     completeGoalRef.push({ email, title });
-  }
+  };
 
   render() {
     const { email, title } = this.props.goal;
@@ -20,10 +20,7 @@ class GoalItem extends Component {
         <span style={{ marginRight: "5px" }}>
           submitted by <em>{email}</em>
         </span>
-        <button
-          className="btn btn-sm btn-primary"
-          onClick={this.completeGoal()}
-        >
+        <button className="btn btn-sm btn-primary" onClick={this.completeGoal}>
           Complete
         </button>
       </div>

@@ -30,7 +30,7 @@ class AddGoal extends Component {
           <button
             className="btn btn-success"
             type="button"
-            onClick={this.addGoal()}
+            onClick={this.addGoal}
           >
             Submit
           </button>

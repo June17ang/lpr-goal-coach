@@ -44,11 +44,7 @@ class SignUp extends Component {
             }
           />
         </div>
-        <button
-          className="btn btn-primary"
-          type="button"
-          onClick={this.signUp()}
-        >
+        <button className="btn btn-primary" type="button" onClick={this.signUp}>
           Sign Up
         </button>
         <div>{this.state.error.message}</div>

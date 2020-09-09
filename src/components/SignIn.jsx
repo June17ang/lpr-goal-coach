@@ -44,11 +44,7 @@ class SignIn extends Component {
             }
           />
         </div>
-        <button
-          className="btn btn-primary"
-          type="button"
-          onClick={this.signIn()}
-        >
+        <button className="btn btn-primary" type="button" onClick={this.signIn}>
           Sign In
         </button>
         <div>{this.state.error.message}</div>
